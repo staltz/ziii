@@ -1,0 +1,27 @@
+{
+  "name": "ziii",
+  "version": "1.0.0",
+  "description": "Right-compose functions with a z() utility function",
+  "repository": "https://github.com/staltz/ziii",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Andre Staltz <contact@staltz.com>",
+  "license": "MIT",
+  "keywords": [
+    "chain",
+    "pipe",
+    "functions",
+    "functional",
+    "compose"
+  ],
+  "devDependencies": {
+    "tape": "^5.2.2",
+    "typescript": "4.2.x",
+    "callbag-basics": "4.x.x",
+    "rxjs": "6.x.x"
+  }
+}
