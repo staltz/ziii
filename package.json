@@ -1,6 +1,6 @@
 {
   "name": "ziii",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Right-compose functions with a z() utility function",
   "repository": "https://github.com/staltz/ziii",
   "main": "index.js",
