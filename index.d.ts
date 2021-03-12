@@ -1,2 +1,4 @@
-type Wrapped<T> = T & {z: <X,Y>(x: X) => Wrapped<Y>}
-export declare function z<T>(x: T): Wrapped<T>;
+type HasZ<X> = X & {
+  z<Y>(f: (x: X) => Y): HasZ<Y>;
+}
+export default function z<T>(x: T): HasZ<T>;
