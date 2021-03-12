@@ -73,28 +73,6 @@ z(fromIter([1, 2, 3, 4, 5]))
   .z(forEach(console.log))
 ```
 
-### Simple JS
-
-```js
-const z = require('ziii')
-
-function doubleSay(str) {
-  return str + ', ' + str;
-}
-function capitalize(str) {
-  return str[0].toUpperCase() + str.substring(1);
-}
-function exclaim(str) {
-  return str + '!';
-}
-
-z('hello')
-  .z(doubleSay)
-  .z(capitalize)
-  .z(exclaim)
-  .z(console.log) // Hello, hello!
-```
-
 ## License
 
 [MIT](LICENSE)
